@@ -32,6 +32,7 @@ Kiddo Main table
  Current Challenges in AWS services :  
 
 --> Cannot implement row level DynamoDB access control through IAM policies when there is an API gatway and Lambda in middle of connection to DynamoDB.
+--> facebook user cannot be synced with the cognito user automatically even if both are registered with same email ID 
 
 
 Create VPC
