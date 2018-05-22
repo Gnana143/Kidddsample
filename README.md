@@ -39,8 +39,9 @@ Create VPC
 
 --> Create a VPC with 10.0.0.0/26  IP address 
 --> Edit DNS host names and Enable it. 
---> Create Subnets with Private and Public configurations. 
---> Create a route table for public and Private. 
---> If you want the internet access you will need Internet gateway and natGateway incase of private routes. 
+--> Create Subnets with Private configurations. 
+--> Create a route table for Private. 
+--> If you want the internet access you will need Internet gateway and NAT Gateway incase of private routes. 
 --> Assign the Lambda function to VPC , Subnet ,Route table and security group 
--->  Create a VPC end point and assign that endpoint to the 
+--> Create a VPC end point and assign that endpoint to the dynampDB. 
+--> API Gateway will be public to provide the access to end  points. 
