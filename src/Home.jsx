@@ -22,11 +22,7 @@ AWS.config.credentials = new AWS.CognitoIdentityCredentials({
     IdentityPoolId: 'ap-south-1:014d4099-c84e-4bb4-9250-696cda5f7013',
 });
 
-
 // Make the call to obtain credentials
-
-
-
 var userPool = new CognitoUserPool(poolData);
 const dynamodb = new AWS.DynamoDB.DocumentClient();
 export default class Home extends Component {
